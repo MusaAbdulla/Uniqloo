@@ -1,3 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using Uniqloooo.Areas.Admin.Extensions;
+using Uniqloooo.Context;
+
 namespace Uniqloooo
 {
     public class Program
@@ -8,7 +13,12 @@ namespace Uniqloooo
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            builder.Services.AddDbContext<UniqloDb>(opt=>
+            {
+                opt.UseSqlServer(builder.Configuration.GetConnectionString("MSsql"));
+                
+            }
+                );
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -35,7 +45,7 @@ namespace Uniqloooo
             app.MapControllerRoute(
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}");
-
+           
             app.Run();
         }
     }

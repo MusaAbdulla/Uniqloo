@@ -9,5 +9,6 @@ namespace Uniqloooo.Areas.Admin.Controllers
         {
             return View();
         }
+        
     }
 }

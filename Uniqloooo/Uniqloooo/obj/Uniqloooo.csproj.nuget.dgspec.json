@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sheki-Komp\\source\\repos\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj": {}
+    "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sheki-Komp\\source\\repos\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj": {
+    "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sheki-Komp\\source\\repos\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj",
+        "projectUniqueName": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj",
         "projectName": "Uniqloooo",
-        "projectPath": "C:\\Users\\Sheki-Komp\\source\\repos\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj",
+        "projectPath": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj",
         "packagesPath": "C:\\Users\\Sheki-Komp\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sheki-Komp\\source\\repos\\Uniqloooo\\Uniqloooo\\obj\\",
+        "outputPath": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sheki-Komp\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,24 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNet.WebApi.Core": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"
