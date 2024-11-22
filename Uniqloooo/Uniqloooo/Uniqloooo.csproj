@@ -19,10 +19,11 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Extensions\" />
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="wwwroot\images\about\" />
     <Folder Include="wwwroot\images\payment\" />
-    <Folder Include="wwwroot\imgs\" />
+    <Folder Include="wwwroot\imgs\sliders\" />
     <Folder Include="wwwroot\sliders\" />
   </ItemGroup>
 

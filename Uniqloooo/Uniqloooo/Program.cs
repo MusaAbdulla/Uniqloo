@@ -1,6 +1,5 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using Uniqloooo.Areas.Admin.Extensions;
 using Uniqloooo.Context;
 
 namespace Uniqloooo

@@ -1,15 +1,17 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
+using Uniqloooo.Context;
 using Uniqloooo.Models;
 
 namespace Uniqloooo.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController(UniqloDb _context) : Controller
     {
         
-        public IActionResult Index()
+        public async Task <IActionResult> Index()
         {
-            return View();
+            return View(await _context.sliders.ToListAsync());
         }
         public IActionResult About()
         {
