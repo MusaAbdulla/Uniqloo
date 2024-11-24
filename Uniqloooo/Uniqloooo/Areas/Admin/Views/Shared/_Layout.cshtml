@@ -43,24 +43,34 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item">
-                <a class="nav-link" asp-action="Index" asp-controller="Dashboard">
+                <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" asp-action="Index" asp-controller="Sliders" >
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Sliders</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" asp-action="Index" asp-controller="Brands" >
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Brands</span>
-                </a>
-            </li>
+
+            
 
             <!-- Divider -->
             <hr class="sidebar-divider">
+            <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Slide">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Slider</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Product">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Product</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" asp-action="Index" asp-controller="Brand">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Brand</span>
+                </a>
+            </li>
+
 
             <!-- Divider -->
             
@@ -286,12 +296,11 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 @RenderBody()
-</div>
+                </div>
                 <!-- /.container-fluid -->
 
             </div>
             <!-- End of Main Content -->
-
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
@@ -307,7 +316,6 @@
 
     </div>
     <!-- End of Page Wrapper -->
-
     <!-- Scroll to Top Button-->
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
@@ -315,7 +323,7 @@
 
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-        aria-hidden="true">
+         aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -334,15 +342,15 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="~/admin/vendor/jquery/jquery.min.js"></script>
+    <script src="~/admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="~/admin/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="~/Admin/js/sb-admin-2.min.js"></script>
+    <script src="~/admin/js/sb-admin-2.min.js"></script>
 
 </body>
 
-</html>
+</html>           

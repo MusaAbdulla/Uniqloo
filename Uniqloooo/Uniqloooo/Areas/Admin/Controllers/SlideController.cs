@@ -70,10 +70,7 @@ namespace Uniqloooo.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
-
-
-        public async Task<IActionResult> Delete(int Id, SliderCreateVM vm)
+        public async Task<IActionResult> Delete(int Id)
         {
             if (Id == null) return BadRequest();
             var data = _context.sliders.Where(x => x.Id == Id).FirstOrDefault();
@@ -81,7 +78,7 @@ namespace Uniqloooo.Areas.Admin.Controllers
             if (await _context.sliders.AnyAsync(x => x.Id ==Id ))
             {
                 _context.sliders.Remove(data);
-                await _context.SaveChangesAsync();
+               await _context.SaveChangesAsync();
             }
             return RedirectToAction(nameof(Index));
         }

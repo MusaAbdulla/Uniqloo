@@ -18,11 +18,19 @@
                 <textarea class="form-control" asp-for="Description"></textarea>
                 <span class="text-danger" asp-validation-for="Description"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="File"></label>
-                <input class="form-control" asp-for="File">
-                <span class="text-danger" asp-validation-for="File"></span>
+            <div class="form-row">
+                <div class="col">
+                    <label asp-for="File">Cover image</label>
+                    <input accept="image/*" class="form-control" asp-for="File">
+                    <span class="text-danger" asp-validation-for="File"></span>
+                </div>
+                <div class="col">
+                    <label asp-for="OtherFiles">Other images</label>
+                    <input accept="image/*" class="form-control" asp-for="OtherFiles">
+                    <span class="text-danger" asp-validation-for="OtherFiles"></span>
+                </div>
             </div>
+            
             <div class="form-row">
                 <div class="col">
                     <label asp-for="CostPrice"></label>
@@ -49,8 +57,9 @@
                 <div class="col">
                     <label asp-for="BrandId">Brands</label>
                     <select class="form-control" asp-for="BrandId" asp-items='new SelectList(ViewBag.Categories,"Id","Name")'>
-                        <option disabled selected>Select brand</option>
+                        <option disabled selected>Select Brand</option>
                     </select>
+              
                     <span class="text-danger" asp-validation-for="BrandId"></span>
                 </div>
             </div>

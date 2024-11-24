@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.EntityFrameworkCore.Metadata.Conventions;
+using System.ComponentModel.DataAnnotations;
 
 namespace Uniqloooo.Models
 {
@@ -19,5 +20,7 @@ namespace Uniqloooo.Models
         public int Discount { get; set; }
         public int? BrandId { get; set; }
         public Brand? Brand { get; set; }
+       public ICollection<ProductImage>? Images { get; set; }
+
     }
 }

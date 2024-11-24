@@ -3,68 +3,104 @@
   "WorkspaceRootPath": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\slide\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\slide\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\viewmodel\\products\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\viewmodel\\products\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Migrations\\20241122233137_createbrandabdproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Uniqloooo\\Migrations\\20241122233137_createbrandabdproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\context\\uniqlodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\context\\uniqlodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\slide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\slide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\controllers\\slidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\controllers\\slidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\slide\\hide.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\slide\\hide.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\viewmodel\\sliders\\slidelistitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\viewmodel\\sliders\\slidelistitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\viewmodel\\sliders\\slidercreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\viewmodel\\sliders\\slidercreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\slide\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\slide\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\viewmodel\\products\\productlistitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\viewmodel\\products\\productlistitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\viewmodel\\commons\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\viewmodel\\commons\\homevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\slide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\slide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\brand\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\controllers\\brandcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\viewmodel\\products\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\viewmodel\\products\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\migrations\\20241124214231_createproductimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\migrations\\20241124214231_createproductimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\brand\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\brand\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\brand\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\controllers\\slidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\controllers\\slidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\viewmodel\\brands\\brandcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\viewmodel\\brands\\brandcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\extensions\\fileextensionscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\extensions\\fileextensionscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\slide\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -75,32 +111,56 @@
       "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\models\\slider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\models\\brand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\migrations\\20241122153617_createtabvle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\migrations\\20241122153617_createtabvle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\slide\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\slide\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\extensions\\fileextensionscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\extensions\\fileextensionscs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\views\\shared\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\views\\shared\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\context\\uniqlodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\context\\uniqlodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -115,36 +175,12 @@
       "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\views\\home\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\wwwroot\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\views\\shared\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\views\\shared\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\migrations\\20241122153617_createtabvle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\migrations\\20241122153617_createtabvle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\migrations\\20241124182312_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\migrations\\20241124182312_create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -154,189 +190,295 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 43,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T23:42:34.913Z",
-              "EditorCaption": ""
+              "DocumentIndex": 7,
+              "Title": "ProductListItemVM.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Products\\ProductListItemVM.cs",
+              "RelativeDocumentMoniker": "Uniqloooo\\ViewModel\\Products\\ProductListItemVM.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Products\\ProductListItemVM.cs",
+              "RelativeToolTip": "Uniqloooo\\ViewModel\\Products\\ProductListItemVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T22:48:48.88Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ProductCreateVM.cs",
-              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Products\\ProductCreateVM.cs",
-              "RelativeDocumentMoniker": "Uniqloooo\\ViewModel\\Products\\ProductCreateVM.cs",
-              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Products\\ProductCreateVM.cs",
-              "RelativeToolTip": "Uniqloooo\\ViewModel\\Products\\ProductCreateVM.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Title": "SlideListItemVM.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Sliders\\SlideListItemVM.cs",
+              "RelativeDocumentMoniker": "Uniqloooo\\ViewModel\\Sliders\\SlideListItemVM.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Sliders\\SlideListItemVM.cs",
+              "RelativeToolTip": "Uniqloooo\\ViewModel\\Sliders\\SlideListItemVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T23:39:26.319Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T22:48:23.84Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
+              "Title": "HomeVM.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Commons\\HomeVM.cs",
+              "RelativeDocumentMoniker": "Uniqloooo\\ViewModel\\Commons\\HomeVM.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Commons\\HomeVM.cs",
+              "RelativeToolTip": "Uniqloooo\\ViewModel\\Commons\\HomeVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T22:44:50.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20241124214231_CreateProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Migrations\\20241124214231_CreateProductImage.cs",
+              "RelativeDocumentMoniker": "Uniqloooo\\Migrations\\20241124214231_CreateProductImage.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Migrations\\20241124214231_CreateProductImage.cs",
+              "RelativeToolTip": "Uniqloooo\\Migrations\\20241124214231_CreateProductImage.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T21:42:31.692Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProductImage.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Models\\ProductImage.cs",
+              "RelativeDocumentMoniker": "Uniqloooo\\Models\\ProductImage.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Models\\ProductImage.cs",
+              "RelativeToolTip": "Uniqloooo\\Models\\ProductImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T21:37:41.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Brand\\Update.cshtml",
+              "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Brand\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Brand\\Update.cshtml",
+              "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Brand\\Update.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T20:47:54.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Update.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADgAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T20:26:46.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20241124182312_Create.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Migrations\\20241124182312_Create.cs",
+              "RelativeDocumentMoniker": "Uniqloooo\\Migrations\\20241124182312_Create.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Migrations\\20241124182312_Create.cs",
+              "RelativeToolTip": "Uniqloooo\\Migrations\\20241124182312_Create.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:23:13.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Brand\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T18:06:42.972Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "BrandCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Brands\\BrandCreateVM.cs",
+              "RelativeDocumentMoniker": "Uniqloooo\\ViewModel\\Brands\\BrandCreateVM.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Brands\\BrandCreateVM.cs",
+              "RelativeToolTip": "Uniqloooo\\ViewModel\\Brands\\BrandCreateVM.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:02:19.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Brand\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T18:01:30.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Controllers\\BrandController.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Controllers\\BrandController.cs",
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Controllers\\BrandController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T23:36:46.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T17:59:59.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 15,
+              "Title": "ProductCreateVM.cs",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Products\\ProductCreateVM.cs",
+              "RelativeDocumentMoniker": "Uniqloooo\\ViewModel\\Products\\ProductCreateVM.cs",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Products\\ProductCreateVM.cs",
+              "RelativeToolTip": "Uniqloooo\\ViewModel\\Products\\ProductCreateVM.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA7wBgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T14:27:08.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T15:54:28.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
+              "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
+              "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T15:58:41.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T14:53:43.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAUwBQAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T23:36:20.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T14:18:26.346Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "20241122233137_createbrandabdproduct.cs",
-              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Migrations\\20241122233137_createbrandabdproduct.cs",
-              "RelativeDocumentMoniker": "Uniqloooo\\Migrations\\20241122233137_createbrandabdproduct.cs",
-              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Migrations\\20241122233137_createbrandabdproduct.cs",
-              "RelativeToolTip": "Uniqloooo\\Migrations\\20241122233137_createbrandabdproduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T23:31:38.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Models\\Product.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Models\\Product.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Models\\Product.cs",
               "RelativeToolTip": "Uniqloooo\\Models\\Product.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBQAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T23:25:04.359Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T13:32:28.34Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 28,
               "Title": "Brand.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Models\\Brand.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Models\\Brand.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Models\\Brand.cs",
               "RelativeToolTip": "Uniqloooo\\Models\\Brand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T23:23:58.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T13:27:23.205Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Hide.cshtml",
-              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Hide.cshtml",
-              "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Hide.cshtml",
-              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Hide.cshtml",
-              "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Hide.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T23:02:04.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Delete.cshtml",
-              "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T22:47:50.595Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 25,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Update.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Update.cshtml",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Update.cshtml",
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Update.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T20:52:52.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T20:52:52.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "FileExtensionscs.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Extensions\\FileExtensionscs.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Extensions\\FileExtensionscs.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Extensions\\FileExtensionscs.cs",
               "RelativeToolTip": "Uniqloooo\\Extensions\\FileExtensionscs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T19:54:39.722Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T19:54:39.722Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "Slider.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Models\\Slider.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Models\\Slider.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Models\\Slider.cs",
               "RelativeToolTip": "Uniqloooo\\Models\\Slider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T14:11:30.195Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T14:11:30.195Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 3,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Views\\_ViewImports.cshtml",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "Uniqloooo\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T16:28:25.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T16:28:25.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 6,
               "Title": "SliderCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Sliders\\SliderCreateVM.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\ViewModel\\Sliders\\SliderCreateVM.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Sliders\\SliderCreateVM.cs",
               "RelativeToolTip": "Uniqloooo\\ViewModel\\Sliders\\SliderCreateVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T16:44:38.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T16:44:38.865Z"
             },
             {
               "$type": "Document",
@@ -346,27 +488,13 @@
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T16:42:14.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T16:42:14.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
-              "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
-              "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
-              "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Create.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T15:58:41.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 31,
               "Title": "20241122153617_createtabvle.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Migrations\\20241122153617_createtabvle.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Migrations\\20241122153617_createtabvle.cs",
@@ -384,65 +512,61 @@
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Index.cshtml",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Index.cshtml",
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Index.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T15:26:11.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T15:26:11.689Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 22,
               "Title": "SlideController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Controllers\\SlideController.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Controllers\\SlideController.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Controllers\\SlideController.cs",
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Controllers\\SlideController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAowF4AAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T15:24:58.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T15:24:58.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 29,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-22T14:43:27.81Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 27,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAgwDcAAABPAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAwEQAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T14:25:17.674Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T14:25:17.674Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 36,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T14:23:40.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T14:23:40.192Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 41,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Uniqloooo\\Properties\\launchSettings.json",
@@ -450,12 +574,11 @@
               "RelativeToolTip": "Uniqloooo\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAEAAAAAAAAAAAAUwB0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-21T17:40:11.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T17:40:11.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 39,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\appsettings.json",
               "RelativeDocumentMoniker": "Uniqloooo\\appsettings.json",
@@ -463,25 +586,23 @@
               "RelativeToolTip": "Uniqloooo\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-21T16:21:20.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T16:21:20.337Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 38,
               "Title": "UniqloDb.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Context\\UniqloDb.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Context\\UniqloDb.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Context\\UniqloDb.cs",
               "RelativeToolTip": "Uniqloooo\\Context\\UniqloDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAoAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T15:05:47.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T15:05:47.001Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Models\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Models\\BaseEntity.cs",
@@ -489,12 +610,11 @@
               "RelativeToolTip": "Uniqloooo\\Models\\BaseEntity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T14:09:53.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T14:09:53.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 37,
               "Title": "DashBoardController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Controllers\\DashBoardController.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Controllers\\DashBoardController.cs",
@@ -502,25 +622,23 @@
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Controllers\\DashBoardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T22:55:26.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T22:55:26.798Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Program.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Program.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Program.cs",
               "RelativeToolTip": "Uniqloooo\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC0AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T22:28:00.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T22:28:00.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 40,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "Uniqloooo\\ScaffoldingReadMe.txt",
@@ -528,12 +646,11 @@
               "RelativeToolTip": "Uniqloooo\\ScaffoldingReadMe.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-11-20T22:42:52.764Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T22:42:52.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 2,
               "Title": "Contact.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Views\\Home\\Contact.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Views\\Home\\Contact.cshtml",
@@ -541,12 +658,11 @@
               "RelativeToolTip": "Uniqloooo\\Views\\Home\\Contact.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T22:15:17.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T22:15:17.071Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 42,
               "Title": "About.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Views\\Home\\About.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Views\\Home\\About.cshtml",
@@ -554,25 +670,23 @@
               "RelativeToolTip": "Uniqloooo\\Views\\Home\\About.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T20:04:05.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T20:04:05.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 34,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Views\\Shared\\_Layout.cshtml",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Uniqloooo\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAPUAAAAAAAAAAAAYwAYBAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T19:58:06.712Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T19:58:06.712Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Views\\Shared\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Views\\Shared\\_ViewStart.cshtml",
@@ -584,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 43,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\wwwroot\\style.css",
               "RelativeDocumentMoniker": "Uniqloooo\\wwwroot\\style.css",
@@ -592,34 +706,32 @@
               "RelativeToolTip": "Uniqloooo\\wwwroot\\style.css",
               "ViewState": "AgIAAG4BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-20T19:39:25.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T19:39:25.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Uniqloooo\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-20T19:07:01.668Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Uniqloooo\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T19:05:45.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T19:05:45.507Z"
             }
           ]
         }
