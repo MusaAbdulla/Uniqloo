@@ -18,12 +18,12 @@ namespace Uniqloooo.Areas.Admin.Controllers
         public async Task <IActionResult> Index()
         {
 
-            return View(await _context.products.Include(x=> x.Brand).ToListAsync());
+            return View(await _context.Products.Include(x=> x.Brand).ToListAsync());
         }
         //RedirectToAction(nameof(Create));
         public async Task <IActionResult> Create()
         { 
-            ViewBag.Categories = await _context.brands.Where(x=> !x.IsDeleted).ToListAsync();
+            ViewBag.Categories = await _context.Brands.Where(x=> !x.IsDeleted).ToListAsync();
             return View();
         }
         [HttpPost]
@@ -54,12 +54,12 @@ namespace Uniqloooo.Areas.Admin.Controllers
             }
             if (ModelState.IsValid)
             {
-                ViewBag.Categories = await _context.brands.Where(x => !x.IsDeleted).ToListAsync();
+                ViewBag.Categories = await _context.Brands.Where(x => !x.IsDeleted).ToListAsync();
                 return View(vm);
             }
-            if (!await _context.brands.AnyAsync(x => x.Id == vm.BrandId))
+            if (!await _context.Brands.AnyAsync(x => x.Id == vm.BrandId))
             {
-                ViewBag.Categories = await _context.brands.Where(x => !x.IsDeleted).ToListAsync();
+                ViewBag.Categories = await _context.Brands.Where(x => !x.IsDeleted).ToListAsync();
                 ModelState.AddModelError("BrandId", "Brand Is not Found");
                 return View();
             }
@@ -68,24 +68,42 @@ namespace Uniqloooo.Areas.Admin.Controllers
             product.CoverImage = await vm.File!.UploadAsync(_env.WebRootPath, "imgs", "products");
             product.Images = vm.OtherFiles.Select(x => new ProductImage
            {
-                Product=product,
+               Product=product,
                ImageUrl= x.UploadAsync(_env.WebRootPath, "imgs", "products").Result
            }).ToList();
-            await _context.products.AddAsync(product);
+            await _context.Products.AddAsync(product);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        public async Task <IActionResult> Update(int Id)
+        public async Task<IActionResult> Update(int? id)
         {
-            ViewBag.Categories = await _context.brands.Where(x => !x.IsDeleted).ToListAsync();
-            return View();
+            if (id is null) return NotFound();
+            var data = await _context.Products
+            .Where(x => x.Id == id)
+            .Select(x => new ProductUpdateVm
+            {
+                BrandId= x.BrandId ?? 0,
+                Name=x.Name,
+                CostPrice=x.CostPrice,
+                Description=x.Description,
+                SellPrice=x.SellPrice,
+                Quantity=x.Quantity,
+                Discount=x.Discount,
+                FileUrl=x.CoverImage,
+                OtherFileUrls=x.Images.Select(y=> y.ImageUrl)
+            })
+            .FirstOrDefaultAsync();
+            if (data is null) return NotFound();
+            ViewBag.Categories = await _context.Brands.Where(x => !x.IsDeleted).ToListAsync();
+            return View(data);
+            //await _context.SaveChangesAsync();
+            //return RedirectToAction(nameof(Update));
         }
         [HttpPost]
-        public async Task<IActionResult> Update(int Id, ProductCreateVM vm)
+        public async Task<IActionResult> Update(int id, ProductCreateVM vm)
         {
-            var updt = _context.products.Where(x => x.Id == Id).FirstOrDefault();
-            if (updt != null)
-            {
+            var updt =await _context.Products.Where(x => x.Id == id).FirstOrDefaultAsync();
+            if (updt == null) return NotFound();
                 updt.Name=vm.Name;
                 updt.Description=vm.Description;
                 updt.SellPrice=vm.SellPrice;
@@ -94,20 +112,17 @@ namespace Uniqloooo.Areas.Admin.Controllers
                 updt.Discount=vm.Discount;
                 updt.BrandId=vm.BrandId;
                 updt.CreatedTime=DateTime.Now;
-            }
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        public async Task<IActionResult> Delete(int Id)
+        public async Task<IActionResult> Delete(int? id)
         {
-            if (Id == null) return BadRequest();
-            var data = _context.products.Where(x => x.Id == Id).FirstOrDefault();
+            if (id == null) return BadRequest();
+            var data = await _context.Products.Where(x => x.Id == id).FirstOrDefaultAsync();
             string imagePath = Path.Combine(_env.WebRootPath, "imgs", "produtcs");
-            if (await _context.products.AnyAsync(x => x.Id == Id))
-            {
-                _context.products.Remove(data);
-                await _context.SaveChangesAsync();
-            }
+            if (data==null) return NotFound();
+            _context.Products.Remove(data);
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
     }

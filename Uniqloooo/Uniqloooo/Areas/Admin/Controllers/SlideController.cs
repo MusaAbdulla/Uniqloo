@@ -12,7 +12,7 @@ namespace Uniqloooo.Areas.Admin.Controllers
         
         public async Task<IActionResult> Index()
         {
-            return View(await _context.sliders.ToListAsync());
+            return View(await _context.Sliders.ToListAsync());
         }
         public IActionResult Create()
         {
@@ -47,7 +47,7 @@ namespace Uniqloooo.Areas.Admin.Controllers
                 SubTitle = vm.Subtitle!,
                 Link = vm.Link
             };
-            await _context.sliders.AddAsync(slider);
+            await _context.Sliders.AddAsync(slider);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
            
@@ -59,13 +59,12 @@ namespace Uniqloooo.Areas.Admin.Controllers
         [HttpPost]
         public async Task <IActionResult> Update(int Id,SliderCreateVM vm)
         {
-           var updt= _context.sliders.Where(x => x.Id == Id).FirstOrDefault();
-            if (updt != null)
-            {
-                updt.Title = vm.Title;
-                updt.SubTitle = vm.Subtitle;
-                updt.CreatedTime = DateTime.Now;
-            }
+            if (!ModelState.IsValid) return View();
+           var updt=await _context.Sliders.Where(x => x.Id == Id).FirstOrDefaultAsync();
+            if (updt == null) return NotFound();
+            updt.Title = vm.Title;
+            updt.SubTitle = vm.Subtitle;
+            updt.CreatedTime = DateTime.Now;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
@@ -73,22 +72,20 @@ namespace Uniqloooo.Areas.Admin.Controllers
         public async Task<IActionResult> Delete(int Id)
         {
             if (Id == null) return BadRequest();
-            var data = _context.sliders.Where(x => x.Id == Id).FirstOrDefault();
+            var data =await _context.Sliders.Where(x => x.Id == Id).FirstOrDefaultAsync();
             string imagePath = Path.Combine(_env.WebRootPath, "imgs", "sliders");
-            if (await _context.sliders.AnyAsync(x => x.Id ==Id ))
-            {
-                _context.sliders.Remove(data);
+            if (data == null) return NotFound();  
+                _context.Sliders.Remove(data);
                await _context.SaveChangesAsync();
-            }
             return RedirectToAction(nameof(Index));
         }
         public async Task<IActionResult> Hide(int? id)
         {
-            var slider = await _context.sliders.FindAsync(id);
+            if (id == null) return NotFound();
+            var slider = await _context.Sliders.FindAsync(id);
             if (slider == null) return NotFound();
-            slider.IsDeleted = true;
+            slider.IsDeleted = !slider.IsDeleted;
             await _context.SaveChangesAsync();
-
             return RedirectToAction(nameof(Index));
         }
     }

@@ -12,7 +12,7 @@ namespace Uniqloooo.Areas.Admin.Controllers
     {
         public async Task <IActionResult> Index()
         {
-            return View(await _context.brands.ToListAsync());
+            return View(await _context.Brands.ToListAsync());
         }
         //RedirectToAction(nameof(Create));
         public IActionResult Create()
@@ -23,36 +23,35 @@ namespace Uniqloooo.Areas.Admin.Controllers
         public async Task <IActionResult> Create(BrandCreateVM vm)
         {
             Brand brand = vm;
-          
-            await _context.brands.AddAsync(brand);
+           
+            await _context.Brands.AddAsync(brand);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        [HttpPost]
-        public IActionResult Update(int Id)
+       
+        public IActionResult Update(int id)
         {
             return View();
         }
-        public async Task<IActionResult> Update(int Id, BrandCreateVM vm)
+        [HttpPost]
+        public async Task<IActionResult> Update(int id, BrandCreateVM vm)
         {
-            var updt = _context.brands.Where(x => x.Id == Id).FirstOrDefault();
-            if (updt != null)
-            {
-                updt.Name = vm.Name;
-                
-            }
+            if (!ModelState.IsValid) return View();
+            var updt = await _context.Brands.Where(x => x.Id == id).FirstOrDefaultAsync();
+            if (updt == null)
+                return NotFound();
+            updt.Name = vm.Name;
+            
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
-        public async Task<IActionResult> Delete(int Id)
+        public async Task<IActionResult> Delete(int? id)
         {
-            if (Id == null) return BadRequest();
-            var data = _context.brands.Where(x => x.Id == Id).FirstOrDefault();
-            if (await _context.brands.AnyAsync(x => x.Id == Id))
-            {
-                _context.brands.Remove(data);
-                await _context.SaveChangesAsync();
-            }
+            if (id == null) return BadRequest();
+            var data = await _context.Brands.Where(x => x.Id == id).FirstOrDefaultAsync();
+            if (data == null) return NotFound();
+            _context.Brands.Remove(data);
+            await _context.SaveChangesAsync(); 
             return RedirectToAction(nameof(Index));
         }
     }

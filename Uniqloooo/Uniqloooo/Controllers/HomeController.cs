@@ -17,7 +17,9 @@ namespace Uniqloooo.Controllers
         public async Task<IActionResult> Index()
         {
             HomeVM vm = new ();
-            vm.Sliders = await _context.sliders.Select(x => new SlideListItemVM
+            vm.Sliders = await _context.Sliders
+                .Where(x=> !x.IsDeleted)
+                .Select(x => new SlideListItemVM
             {
                 ImageUrl=x.ImageUrl,
                 Title=x.Title,
@@ -25,7 +27,7 @@ namespace Uniqloooo.Controllers
                 Link=x.Link,
 
             }).ToListAsync();
-            vm.Products= await _context.products.Select(x=> new ProductListItemVM
+            vm.Products= await _context.Products.Select(x=> new ProductListItemVM
             {
                 CoverImage=x.CoverImage,
                 Discount=x.Discount,

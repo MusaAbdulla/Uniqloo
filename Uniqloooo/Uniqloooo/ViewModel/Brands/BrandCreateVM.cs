@@ -7,7 +7,7 @@ namespace Uniqloooo.ViewModel.Brands
     public class BrandCreateVM
     {
         [MaxLength(64)]
-        public string Name { get; set; }
+        public string Name { get; set; } = null!;
         public ICollection<Product> Products { get; set; }
         public static implicit operator Brand(BrandCreateVM vm)
         {
