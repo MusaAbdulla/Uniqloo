@@ -82,6 +82,7 @@ namespace Uniqloooo.Areas.Admin.Controllers
             .Where(x => x.Id == id)
             .Select(x => new ProductUpdateVm
             {
+                Id = x.Id,
                 BrandId= x.BrandId ?? 0,
                 Name=x.Name,
                 CostPrice=x.CostPrice,
@@ -103,7 +104,7 @@ namespace Uniqloooo.Areas.Admin.Controllers
         public async Task<IActionResult> Update(int id, ProductCreateVM vm)
         {
             var updt =await _context.Products.Where(x => x.Id == id).FirstOrDefaultAsync();
-            if (updt == null) return NotFound();
+            if (updt == null) return NotFound();  
                 updt.Name=vm.Name;
                 updt.Description=vm.Description;
                 updt.SellPrice=vm.SellPrice;
@@ -124,6 +125,16 @@ namespace Uniqloooo.Areas.Admin.Controllers
             _context.Products.Remove(data);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+        [HttpPost]
+        public async Task<IActionResult> DeleteImgs( int id,IEnumerable<string> imgNames)
+        {
+            int result = await _context.ProductImage.Where(x => imgNames.Contains(x.ImageUrl)).ExecuteDeleteAsync();
+            if (result > 0)
+            {
+                //serverden (komputerden (fayllardan)) kohne shekilleri sil
+            }
+            return RedirectToAction(nameof(Update), new { id });
         }
     }
 }

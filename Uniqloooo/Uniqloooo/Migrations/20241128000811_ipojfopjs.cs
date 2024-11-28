@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Uniqloooo.Migrations
 {
     /// <inheritdoc />
-    public partial class createttableee : Migration
+    public partial class ipojfopjs : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "brands",
+                name: "Brands",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -23,11 +23,11 @@ namespace Uniqloooo.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_brands", x => x.Id);
+                    table.PrimaryKey("PK_Brands", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "sliders",
+                name: "Sliders",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -41,11 +41,11 @@ namespace Uniqloooo.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_sliders", x => x.Id);
+                    table.PrimaryKey("PK_Sliders", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "products",
+                name: "Products",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -63,11 +63,11 @@ namespace Uniqloooo.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_products", x => x.Id);
+                    table.PrimaryKey("PK_Products", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_products_brands_BrandId",
+                        name: "FK_Products_Brands_BrandId",
                         column: x => x.BrandId,
-                        principalTable: "brands",
+                        principalTable: "Brands",
                         principalColumn: "Id");
                 });
 
@@ -86,9 +86,9 @@ namespace Uniqloooo.Migrations
                 {
                     table.PrimaryKey("PK_ProductImage", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_ProductImage_products_ProductId",
+                        name: "FK_ProductImage_Products_ProductId",
                         column: x => x.ProductId,
-                        principalTable: "products",
+                        principalTable: "Products",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -99,8 +99,8 @@ namespace Uniqloooo.Migrations
                 column: "ProductId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_products_BrandId",
-                table: "products",
+                name: "IX_Products_BrandId",
+                table: "Products",
                 column: "BrandId");
         }
 
@@ -111,13 +111,13 @@ namespace Uniqloooo.Migrations
                 name: "ProductImage");
 
             migrationBuilder.DropTable(
-                name: "sliders");
+                name: "Sliders");
 
             migrationBuilder.DropTable(
-                name: "products");
+                name: "Products");
 
             migrationBuilder.DropTable(
-                name: "brands");
+                name: "Brands");
         }
     }
 }

@@ -5,6 +5,7 @@ namespace Uniqloooo.ViewModel.Products
 {
     public class ProductUpdateVm
     {
+        public int Id { get; set; }
         [MaxLength(64)]
         public string Name { get; set; }
         [MaxLength(512)]

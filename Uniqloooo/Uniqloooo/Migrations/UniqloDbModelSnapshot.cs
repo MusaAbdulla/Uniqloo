@@ -42,7 +42,7 @@ namespace Uniqloooo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("brands");
+                    b.ToTable("Brands");
                 });
 
             modelBuilder.Entity("Uniqloooo.Models.Product", b =>
@@ -92,7 +92,7 @@ namespace Uniqloooo.Migrations
 
                     b.HasIndex("BrandId");
 
-                    b.ToTable("products");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Uniqloooo.Models.ProductImage", b =>
@@ -156,7 +156,7 @@ namespace Uniqloooo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("sliders");
+                    b.ToTable("Sliders");
                 });
 
             modelBuilder.Entity("Uniqloooo.Models.Product", b =>

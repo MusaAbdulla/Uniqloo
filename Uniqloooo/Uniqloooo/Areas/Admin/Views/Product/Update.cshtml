@@ -51,11 +51,11 @@
                      @foreach(var item in Model.OtherFileUrls ?? [])
                 {
 
-                     <input class="d-none del-img-input" type="checkbox" value="@item" name="imgNames" id="@item" />
+                     <input class="d-none del-img-input" type="checkbox" value="" name="imgNames" id="@item" />
                      <label class="del-img-label" for="@item"><img width="100px" src="~/imgs/products/@item" /></label>
                    
                 }
-                        <button asp-action="Deletedimgs" asp-controller="Product" class="btn btn-danger">Delete</button>
+                        <button asp-action="DeleteImgs" asp-controller="Product" asp-route-id="@Model.Id" class="btn btn-danger">Delete</button>
                 </form>
             </div>
             </div>

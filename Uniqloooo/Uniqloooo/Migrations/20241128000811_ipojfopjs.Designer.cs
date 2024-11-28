@@ -12,8 +12,8 @@ using Uniqloooo.Context;
 namespace Uniqloooo.Migrations
 {
     [DbContext(typeof(UniqloDb))]
-    [Migration("20241126182937_createttableee")]
-    partial class createttableee
+    [Migration("20241128000811_ipojfopjs")]
+    partial class ipojfopjs
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -45,7 +45,7 @@ namespace Uniqloooo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("brands");
+                    b.ToTable("Brands");
                 });
 
             modelBuilder.Entity("Uniqloooo.Models.Product", b =>
@@ -95,7 +95,7 @@ namespace Uniqloooo.Migrations
 
                     b.HasIndex("BrandId");
 
-                    b.ToTable("products");
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Uniqloooo.Models.ProductImage", b =>
@@ -159,7 +159,7 @@ namespace Uniqloooo.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("sliders");
+                    b.ToTable("Sliders");
                 });
 
             modelBuilder.Entity("Uniqloooo.Models.Product", b =>
