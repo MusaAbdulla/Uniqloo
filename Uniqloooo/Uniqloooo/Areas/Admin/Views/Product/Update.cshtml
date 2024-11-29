@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Update";
 }
-@section stylee{
+@section stylee {
 
     <style>
         .del-img-label {
@@ -27,7 +27,7 @@
         <h6 class="m-0 font-weight-bold text-primary">Product Update</h6>
     </div>
     <div class="card-body">
-        <form enctype="multipart/form-data" method="post">
+        <form id="islepls" enctype="multipart/form-data" method="post">
             <div class="form-group">
                 <label asp-for="Name"></label>
                 <input class="form-control" asp-for="Name">
@@ -38,30 +38,30 @@
                 <textarea class="form-control" asp-for="Description"></textarea>
                 <span class="text-danger" asp-validation-for="Description"></span>
             </div>
-          
+
             <div class="form-group">
-                <div class="d-flex">                    
-                    <img width="140px"src="~/imgs/products/@Model.FileUrl" />
-               </div>
-                <div >
+                <div class="d-flex">
+                    <img width="140px" src="~/imgs/products/@Model.FileUrl" />
+                </div>
+                <div>
                     <label asp-for="File">Cover image</label>
                     <input accept="image/*" class="form-control" asp-for="File">
                     <span class="text-danger" asp-validation-for="File"></span>
-                <form action="Deletedimgs" method="post" class="d-flex" style="gap:10px">
-                     @foreach(var item in Model.OtherFileUrls ?? [])
-                {
+                    <form action="Deletedimgs" method="post" class="d-flex" style="gap:10px">
+                        @foreach (var item in Model.OtherFileUrls ?? [])
+                        {
 
-                     <input class="d-none del-img-input" type="checkbox" value="" name="imgNames" id="@item" />
-                     <label class="del-img-label" for="@item"><img width="100px" src="~/imgs/products/@item" /></label>
-                   
-                }
+                            <input class="d-none del-img-input" type="checkbox" value="" name="imgNames" id="@item" />
+                            <label class="del-img-label" for="@item"><img width="100px" src="~/imgs/products/@item" /></label>
+
+                        }
                         <button asp-action="DeleteImgs" asp-controller="Product" asp-route-id="@Model.Id" class="btn btn-danger">Delete</button>
-                </form>
-            </div>
+                    </form>
+                </div>
             </div>
             <div class="form-group">
-                <label asp-for="OtherFiles">OtherImage</label>
-                <textarea class="form-control" asp-for="OtherFiles"></textarea>
+                <label asp-for="OtherFiles">Other images</label>
+                <input accept="image/*" class="form-control" asp-for="OtherFiles">
                 <span class="text-danger" asp-validation-for="OtherFiles"></span>
             </div>
             <div class="form-row">
@@ -95,7 +95,7 @@
                     <span class="text-danger" asp-validation-for="BrandId"></span>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary my-2">Submit</button>
+            <button onclick="$('#islepls').submit()" asp-action="Product" asp-controller="Update" type="submit" class="btn btn-primary my-2">Submit</button>
         </form>
     </div>
 </div>

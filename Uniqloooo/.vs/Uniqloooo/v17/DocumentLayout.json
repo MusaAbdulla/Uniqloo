@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Migrations\\20241128000811_ipojfopjs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Uniqloooo\\Migrations\\20241128000811_ipojfopjs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\context\\uniqlodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\context\\uniqlodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\viewmodel\\products\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\viewmodel\\products\\productupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\viewmodel\\products\\productlistitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\viewmodel\\products\\productlistitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\migrations\\20241128000811_ipojfopjs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\migrations\\20241128000811_ipojfopjs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\context\\uniqlodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\context\\uniqlodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\models\\productimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +85,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\viewmodel\\products\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\viewmodel\\products\\productcreatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\viewmodel\\products\\productlistitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|solutionrelative:uniqloooo\\viewmodel\\products\\productlistitemvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EC5782E-29C6-47CA-B057-366DAB039C42}|Uniqloooo\\Uniqloooo.csproj|c:\\users\\sheki-komp\\desktop\\uniqloproject\\uniqloooo\\uniqloooo\\areas\\admin\\views\\slide\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -194,11 +194,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "20241128000811_ipojfopjs.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Migrations\\20241128000811_ipojfopjs.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Migrations\\20241128000811_ipojfopjs.cs",
@@ -206,12 +206,11 @@
               "RelativeToolTip": "Uniqloooo\\Migrations\\20241128000811_ipojfopjs.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T00:08:12.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-28T00:08:12.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Views\\_ViewStart.cshtml",
@@ -223,16 +222,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ProductUpdateVm.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Products\\ProductUpdateVm.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\ViewModel\\Products\\ProductUpdateVm.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Products\\ProductUpdateVm.cs",
               "RelativeToolTip": "Uniqloooo\\ViewModel\\Products\\ProductUpdateVm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswBYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-26T20:40:44.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-26T20:40:44.845Z"
             },
             {
               "$type": "Document",
@@ -248,7 +246,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 3,
               "Title": "ProductListItemVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Products\\ProductListItemVM.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\ViewModel\\Products\\ProductListItemVM.cs",
@@ -284,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "ProductImage.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Models\\ProductImage.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Models\\ProductImage.cs",
@@ -292,12 +290,11 @@
               "RelativeToolTip": "Uniqloooo\\Models\\ProductImage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T21:37:41.377Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T21:37:41.377Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Brand\\Update.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Brand\\Update.cshtml",
@@ -309,13 +306,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Update.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADkAAACQAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-24T20:26:46.266Z",
               "EditorCaption": ""
@@ -358,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BrandController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Controllers\\BrandController.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Controllers\\BrandController.cs",
@@ -366,12 +363,11 @@
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Controllers\\BrandController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAgwCoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-24T17:59:59.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-24T17:59:59.084Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ProductCreateVM.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\ViewModel\\Products\\ProductCreateVM.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\ViewModel\\Products\\ProductCreateVM.cs",
@@ -383,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Create.cshtml",
@@ -407,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Product\\Index.cshtml",
@@ -425,7 +421,7 @@
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAHoAAAAAAAAAAAAswIMAAABeAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwIsAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T14:18:26.346Z",
               "EditorCaption": ""
@@ -456,7 +452,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Slide\\Update.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Slide\\Update.cshtml",
@@ -516,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -540,7 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "SlideController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Controllers\\SlideController.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Controllers\\SlideController.cs",
@@ -548,12 +544,11 @@
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Controllers\\SlideController.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAgwAwAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T15:24:58.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-22T15:24:58.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -565,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
@@ -601,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\appsettings.json",
               "RelativeDocumentMoniker": "Uniqloooo\\appsettings.json",
@@ -613,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "UniqloDb.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Context\\UniqloDb.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Context\\UniqloDb.cs",
@@ -621,8 +616,7 @@
               "RelativeToolTip": "Uniqloooo\\Context\\UniqloDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T15:05:47.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T15:05:47.001Z"
             },
             {
               "$type": "Document",
@@ -638,7 +632,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "DashBoardController.cs",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Areas\\Admin\\Controllers\\DashBoardController.cs",
               "RelativeDocumentMoniker": "Uniqloooo\\Areas\\Admin\\Controllers\\DashBoardController.cs",
@@ -646,8 +640,7 @@
               "RelativeToolTip": "Uniqloooo\\Areas\\Admin\\Controllers\\DashBoardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T22:55:26.798Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T22:55:26.798Z"
             },
             {
               "$type": "Document",
@@ -699,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Uniqloooo\\Views\\Shared\\_Layout.cshtml",

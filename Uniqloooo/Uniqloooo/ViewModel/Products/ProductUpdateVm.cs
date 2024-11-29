@@ -26,4 +26,5 @@ namespace Uniqloooo.ViewModel.Products
         public Brand? Brand { get; set; }
         public ICollection<IFormFile> OtherFiles { get; set; }
     }
+   
 }

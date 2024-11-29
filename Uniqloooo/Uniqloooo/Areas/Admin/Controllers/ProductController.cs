@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http.Connections;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
+using System.Linq;
 using System.Xml;
 using Uniqloooo.Context;
 using Uniqloooo.Extensions;
@@ -14,7 +16,8 @@ namespace Uniqloooo.Areas.Admin.Controllers
     [Area("Admin")]
     public class ProductController(IWebHostEnvironment _env,UniqloDb _context) : Controller
     {
-      
+        private object imgNames;
+
         public async Task <IActionResult> Index()
         {
 
@@ -91,7 +94,7 @@ namespace Uniqloooo.Areas.Admin.Controllers
                 Quantity=x.Quantity,
                 Discount=x.Discount,
                 FileUrl=x.CoverImage,
-                OtherFileUrls=x.Images.Select(y=> y.ImageUrl)
+                OtherFileUrls=x.Images.Select(y=>  y.ImageUrl)
             })
             .FirstOrDefaultAsync();
             if (data is null) return NotFound();
@@ -127,10 +130,10 @@ namespace Uniqloooo.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
         [HttpPost]
-        public async Task<IActionResult> DeleteImgs( int id,IEnumerable<string> imgNames)
+        public async Task<IActionResult> DeleteImgs( int id, IEnumerable<string> imgNames)
         {
             int result = await _context.ProductImage.Where(x => imgNames.Contains(x.ImageUrl)).ExecuteDeleteAsync();
-            if (result > 0)
+           if (result > 0)
             {
                 //serverden (komputerden (fayllardan)) kohne shekilleri sil
             }
