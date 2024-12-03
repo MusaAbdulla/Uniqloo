@@ -8,14 +8,14 @@ namespace Uniqloooo.ViewModel.Brands
     {
         [MaxLength(64)]
         public string Name { get; set; } = null!;
-        public ICollection<Product> Products { get; set; }
+      
         public static implicit operator Brand(BrandCreateVM vm)
         {
             return new Brand
             {
                
                 Name = vm.Name,
-                Products=vm.Products
+               
             
             };
         }

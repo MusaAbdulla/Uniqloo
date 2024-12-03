@@ -425,15 +425,15 @@ $('.image-popup').magnificPopup({
 --------------------------------*/
   $("#slider-range").slider({
       range: true,
-      min: 10,
-      max: 500,
-      values: [110, 400],
+      min: 100,
+      max: 10000,
+      values: [$("#slider-range").attr('min-val') ?? 50, $("#slider-range").attr('max-val') ?? 5500],
       slide: function(event, ui) {
-          $("#amount").val("$" + ui.values[0] + " - $" + ui.values[1]);
+          $("#amount").val( ui.values[0] +"-"+ ui.values[1]);
       }
   });
-  $("#amount").val("$" + $("#slider-range").slider("values", 0) +
-      " - $" + $("#slider-range").slider("values", 1));
+  $("#amount").val($("#slider-range").slider("values", 0) +
+       "-" + $("#slider-range").slider("values", 1));
 
 
 

@@ -29,12 +29,12 @@ namespace Uniqloooo.Areas.Admin.Controllers
             return RedirectToAction(nameof(Index));
         }
        
-        public IActionResult Update(int id)
+        public IActionResult Update(int? id)
         {
             return View();
         }
         [HttpPost]
-        public async Task<IActionResult> Update(int id, BrandCreateVM vm)
+        public async Task<IActionResult> Update(int? id, BrandCreateVM vm)
         {
             if (!ModelState.IsValid) return View();
             var updt = await _context.Brands.Where(x => x.Id == id).FirstOrDefaultAsync();

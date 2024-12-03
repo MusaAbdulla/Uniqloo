@@ -7,10 +7,9 @@ namespace Uniqloooo.ViewModel.Products
     public class ProductCreateVM
     {
         [MaxLength(64)]
-        public string Name { get; set; }
+        public string Name { get; set; }                     
         [MaxLength(512)]
         public string Description { get; set; }
-        public string CoverImage { get; set; }
         [Range(0, int.MaxValue)]
         public int Quantity { get; set; }
         [DataType("decimal 18,2")]
@@ -21,20 +20,22 @@ namespace Uniqloooo.ViewModel.Products
         public int Discount { get; set; }
         public IFormFile File { get; set; }
         public int BrandId { get; set; }
-        public Brand? Brand { get; set; }
-        public ICollection<IFormFile> OtherFiles { get; set; }
+        public ICollection<IFormFile>? OtherFiles { get; set; }
 
         public static implicit operator Product(ProductCreateVM vm)
         {
             return new Product
             {
+           
                 BrandId = vm.BrandId,
                 CostPrice = vm.CostPrice,
                 Description = vm.Description,
                 Discount = vm.Discount,
                 Name = vm.Name,
                 Quantity = vm.Quantity,
-                SellPrice = vm.SellPrice
+                SellPrice = vm.SellPrice,
+              
+                
             };
         }
 
