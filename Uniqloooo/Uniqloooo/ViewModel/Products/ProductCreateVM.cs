@@ -26,7 +26,7 @@ namespace Uniqloooo.ViewModel.Products
         {
             return new Product
             {
-           
+             
                 BrandId = vm.BrandId,
                 CostPrice = vm.CostPrice,
                 Description = vm.Description,

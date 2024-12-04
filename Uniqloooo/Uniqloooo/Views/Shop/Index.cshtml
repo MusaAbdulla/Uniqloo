@@ -122,7 +122,7 @@
                                 <div class="product">
                                     <div class="product__inner">
                                         <div class="pro__thumb">
-                                            <a href="#">
+                                            <a href="Product/Details/0">
                                                 <img src="~/imgs/products/@item.CoverImage" alt="product images">
                                             </a>
                                         </div>
@@ -130,7 +130,10 @@
                                         <div class="add__to__wishlist">
                                             <a data-bs-toggle="tooltip" title="Add To Wishlist" 
                                             class="add-to-cart" href="wishlist.html"><span class="ti-heart"></span></a>
+                                            <a data-bs-toggle="modal" data-bs-target="#productModal" title="Quick View" class="quick-view modal-view detail-link" href="#"><span class="ti-plus"></span></a>
+                                            <a title="Add To Cart" href="cart.html"><span class="ti-shopping-cart"></span></a>
                                         </div>
+                                        
                                     </div>
                                     <div class="product__details">
                                         <h2><a href="product-details.html">@item.Name</a></h2>

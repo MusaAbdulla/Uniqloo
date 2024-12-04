@@ -1,10 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using System.Diagnostics;
-using System.Drawing;
-using System.Linq;
 using Uniqloooo.Context;
-using Uniqloooo.Models;
 using Uniqloooo.ViewModel.Commons;
 using Uniqloooo.ViewModel.Products;
 using Uniqloooo.ViewModel.Sliders;
@@ -47,7 +43,7 @@ namespace Uniqloooo.Controllers
         {
             return View();
         }
-       public IActionResult Shop()
+        public IActionResult Shop()
         {
             return View();
         }
@@ -63,9 +59,9 @@ namespace Uniqloooo.Controllers
         {
             HttpContext.Response.Cookies.Append(key, value, new CookieOptions
             {
-               MaxAge=TimeSpan.FromMinutes(2)
-               
-            });    
+                MaxAge = TimeSpan.FromMinutes(2)
+
+            });
         }
         public IActionResult GetCookie(string key)
         {

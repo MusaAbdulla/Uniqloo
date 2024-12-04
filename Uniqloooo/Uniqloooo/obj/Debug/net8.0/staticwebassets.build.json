@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eFtLv1khwqwznl2fxwRJjuO/gllJJnJpdnG/AOlM1xk=",
+  "Hash": "awymzexC46LJf78oUCj/wio0BlGLECiZxuU5BQfCNsM=",
   "Source": "Uniqloooo",
   "BasePath": "_content/Uniqloooo",
   "Mode": "Default",
@@ -37922,6 +37922,25 @@
       "OriginalItemSpec": "wwwroot\\imgs\\products\\tuc2mvl0.igb.jpeg"
     },
     {
+      "Identity": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\wwwroot\\imgs\\products\\ury4gf4o.44i.jpeg",
+      "SourceId": "Uniqloooo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\wwwroot\\",
+      "BasePath": "_content/Uniqloooo",
+      "RelativePath": "imgs/products/ury4gf4o.44i.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\products\\ury4gf4o.44i.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\wwwroot\\imgs\\products\\uxqapskp.okx.jpg",
       "SourceId": "Uniqloooo",
       "SourceType": "Discovered",
@@ -38091,6 +38110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\imgs\\products\\zipdsc0o.lzb.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\wwwroot\\imgs\\products\\zpw41jyr.bmy.jpeg",
+      "SourceId": "Uniqloooo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\wwwroot\\",
+      "BasePath": "_content/Uniqloooo",
+      "RelativePath": "imgs/products/zpw41jyr.bmy.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\imgs\\products\\zpw41jyr.bmy.jpeg"
     },
     {
       "Identity": "C:\\Users\\Sheki-Komp\\Desktop\\UniqloProject\\Uniqloooo\\Uniqloooo\\wwwroot\\imgs\\sliders\\bmo0c4ir.syn.jpg",

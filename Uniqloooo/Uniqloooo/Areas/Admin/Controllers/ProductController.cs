@@ -64,6 +64,7 @@ public class ProductController(IWebHostEnvironment _env, UniqloDb _context) : Co
         product.CoverImage = await vm.File!.UploadAsync(_env.WebRootPath, "imgs", "products");
         product.Images = vm.OtherFiles?.Select(x => new ProductImage
         {
+            
             ImageUrl = x.UploadAsync(_env.WebRootPath, "imgs", "products").Result
         }).ToList();
         await _context.Products.AddAsync(product);

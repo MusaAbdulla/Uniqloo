@@ -1,6 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Text.Json;
 using Uniqloooo.Context;
+using Uniqloooo.ViewModel.Baskets;
 using Uniqloooo.ViewModel.Brands;
 using Uniqloooo.ViewModel.Commons;
 using Uniqloooo.ViewModel.Products;
@@ -46,6 +49,36 @@ namespace Uniqloooo.Controllers
             ).ToListAsync();
             vm.ProductCount= await query.CountAsync();
             return View(vm);
+        }
+    
+        public async Task <IActionResult> AddBasket(int id)
+        {
+            var basket = getBasket();
+            var item = basket.FirstOrDefault(x => x.Id == id);
+            if (item != null)     
+                item.Count++;
+            else
+            {
+                basket.Add(new BasketCookieItemVM
+                {
+                    Id = id,
+                    Count=1
+                });
+            }
+            string data = JsonSerializer.Serialize(basket);
+            HttpContext.Response.Cookies.Append("Basket",data);
+            return Ok();
+        }
+        public IActionResult GetBasket(int id)
+        {
+            return Json(getBasket());
+        }
+        List<BasketCookieItemVM> getBasket()
+        {
+            string? value = (HttpContext.Request.Cookies["basket"]);
+            if(value is null) return new();
+            return JsonSerializer.Deserialize<List<BasketCookieItemVM>>
+               (value) ?? new();
         }
     }
 }

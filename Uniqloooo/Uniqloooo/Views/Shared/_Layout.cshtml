@@ -1,10 +1,9 @@
 ﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
-
 <!doctype html>
 <html class="no-js" lang="zxx">
 
 <head>
-    
+
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>@ViewBag.Title</title>
@@ -58,18 +57,18 @@
                             <nav class="mainmenu__nav d-none d-lg-block">
                                 <ul class="main__menu">
                                     <li><a asp-action="Index" asp-controller="Home">Home</a></li>
-                                    <li><a href="shop.html">Shop</a></li>
+                                    <li><a asp-action="Shop"asp-controller="Home">Shop</a></li>
                                     <li><a asp-action="About" asp-controller="Home">About</a></li>
-                                    <li><a href="contact.html">contact</a></li>
+                                    <li><a asp-action="Contact" asp-controller="Home">Contact</a></li>
                                 </ul>
                             </nav>
                             <div class="mobile-menu clearfix  d-block d-lg-none">
                                 <nav id="mobile_dropdown">
                                     <ul>
                                         <li><a asp-action="Index" asp-controller="Home">Home</a></li>
-                                        <li><a href="#">pages</a></li>
+                                        <li><a asp-action="Shop" asp-controller="Home">Shop</a></li>
                                         <li><a asp-action="About" asp-controller="Home">About</a></li>
-                                        <li><a href="contact.html">contact</a></li>
+                                        <li><a asp-action="Contact" asp-controller="Home">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -141,6 +140,8 @@
         <!-- End Cart Panel -->
     </div>
     <!-- End Offset Wrapper -->
+   
+    @await Component.InvokeAsync("LayOutHeader")
     @RenderBody()
     @await RenderSectionAsync("style",false)
     <!-- Start Footer Area -->
