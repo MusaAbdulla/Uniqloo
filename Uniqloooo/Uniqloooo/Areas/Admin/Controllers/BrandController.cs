@@ -1,13 +1,16 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Web.Http;
 using Uniqloooo.Context;
 using Uniqloooo.Models;
 using Uniqloooo.ViewModel.Brands;
 using Uniqloooo.ViewModel.Products;
+using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
 
 namespace Uniqloooo.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class BrandController(UniqloDb _context , IWebHostEnvironment _env) : Controller
     {
         public async Task <IActionResult> Index()

@@ -8,7 +8,8 @@ namespace Uniqloooo.ViewComponents
 {
     public class LayoutHeaderViewComponent(UniqloDb _context) :ViewComponent
     {
-        public async Task<IViewComponentResult> InVokeAsync()
+        
+        public async Task<IViewComponentResult> InvokeAsync()
         {
             var basket = BasketHelper.GetBasket(Request);
            var basketItems= await _context.Products

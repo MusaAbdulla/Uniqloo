@@ -1,12 +1,19 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Web.Http;
 using Uniqloooo.Context;
 using Uniqloooo.Models;
 using Uniqloooo.ViewModel.Sliders;
+using AuthorizeAttribute = Microsoft.AspNetCore.Authorization.AuthorizeAttribute;
+using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
 
 namespace Uniqloooo.Areas.Admin.Controllers
 {
+
     [Area("Admin")]
+    
+    [Authorize]
     public class SlideController(UniqloDb _context, IWebHostEnvironment _env) : Controller
     {
         
