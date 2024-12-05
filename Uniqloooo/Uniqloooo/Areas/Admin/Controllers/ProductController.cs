@@ -120,7 +120,6 @@ public class ProductController(IWebHostEnvironment _env, UniqloDb _context) : Co
         updt.Quantity = vm.Quantity;
         updt.Discount = vm.Discount;
         updt.BrandId = vm.BrandId;
-        updt.CreatedTime = DateTime.Now;
         await _context.SaveChangesAsync();
         return RedirectToAction(nameof(Index));           
     }

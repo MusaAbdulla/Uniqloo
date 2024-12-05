@@ -1,4 +1,5 @@
 ﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -79,7 +80,7 @@
                                 <li><a href="login-register.html"><span class="ti-user"></span></a></li>
                                 <li class="cart__menu"><span class="ti-shopping-cart"></span></li>
                             </ul>
-                        </div>
+                        </div> 
                     </div>
                     <div class="mobile-menu-area"></div>
                 </div>
@@ -89,12 +90,20 @@
         <!-- End Header Style -->
 
         <div class="body__overlay"></div>
+<<<<<<< HEAD
         @await Component.InvokeAsync("LayoutHeader")
+=======
+        <!-- Start Cart Panel -->
+    @await Component.InvokeAsync("LayoutHeader")
+>>>>>>> a85d2d2f2cbb8c8a5780f709b2993007331a0ade
         <!-- End Cart Panel -->
     </div>
     <!-- End Offset Wrapper -->
    
+<<<<<<< HEAD
    
+=======
+>>>>>>> a85d2d2f2cbb8c8a5780f709b2993007331a0ade
     @RenderBody()
     @await RenderSectionAsync("style",false)
     <!-- Start Footer Area -->
