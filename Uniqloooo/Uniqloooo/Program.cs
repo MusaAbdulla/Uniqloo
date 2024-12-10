@@ -18,27 +18,25 @@ namespace Uniqloooo
             {
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("MSsql"));
                 
-            }
-<<<<<<< HEAD
-                );
-=======
+            } 
+
             );
->>>>>>> 42ae760e56ef6a7a4df6362ba101bbd7547e117f
+
             builder.Services.AddIdentity<User, IdentityRole>(opt =>
             {
                 opt.User.RequireUniqueEmail = true;
                 opt.Password.RequireUppercase = true;
-<<<<<<< HEAD
+
                 opt.Password.RequireLowercase = true;
                 opt.Password.RequiredLength = 8;
                 opt.Password.RequireDigit = true;
                 opt.Lockout.MaxFailedAccessAttempts = 1;
-=======
+
                 opt.Password.RequireLowercase =true;
                 opt.Password.RequiredLength = 8;
                 opt.Password.RequireDigit = true;
                 opt.Lockout.MaxFailedAccessAttempts=1;
->>>>>>> 42ae760e56ef6a7a4df6362ba101bbd7547e117f
+
                 opt.Password.RequireNonAlphanumeric = true;
                 opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(1);
 
@@ -46,11 +44,11 @@ namespace Uniqloooo
             builder.Services.ConfigureApplicationCookie(x =>
             {
                 x.LoginPath = "/login";
-<<<<<<< HEAD
+
                 x.AccessDeniedPath = "/Home/AccessDenied";
-=======
+
                 x.AccessDeniedPath= "/Home/AccessDenied";
->>>>>>> 42ae760e56ef6a7a4df6362ba101bbd7547e117f
+
             });
             //builder.Services.AddSession();
             var app = builder.Build();

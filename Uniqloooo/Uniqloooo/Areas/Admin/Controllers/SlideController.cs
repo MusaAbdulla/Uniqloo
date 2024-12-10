@@ -10,14 +10,8 @@ using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
 
 namespace Uniqloooo.Areas.Admin.Controllers
 {
-<<<<<<< HEAD
-    [Area("Admin"), Authorize]
-=======
 
-    [Area("Admin")]
-    
-    [Authorize]
->>>>>>> 42ae760e56ef6a7a4df6362ba101bbd7547e117f
+    [Area("Admin"), Authorize]
     public class SlideController(UniqloDb _context, IWebHostEnvironment _env) : Controller
     {
         

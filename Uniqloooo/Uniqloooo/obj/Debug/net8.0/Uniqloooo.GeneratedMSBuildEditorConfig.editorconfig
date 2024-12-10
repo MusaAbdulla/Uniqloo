@@ -78,7 +78,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< HEAD
 [C:/Users/ca r221.14/Desktop/Uniqloo/Uniqloooo/Uniqloooo/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -87,21 +86,7 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-=======
-<<<<<<< HEAD
-[C:/Users/Sheki-Komp/Desktop/UniqloProject/Uniqloooo/Uniqloooo/Views/Account/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Sheki-Komp/Desktop/UniqloProject/Uniqloooo/Uniqloooo/Views/Account/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Sheki-Komp/Desktop/UniqloProject/Uniqloooo/Uniqloooo/Views/Home/About.cshtml]
-=======
->>>>>>> 42ae760e56ef6a7a4df6362ba101bbd7547e117f
 [C:/Users/ca r221.14/Desktop/Uniqloo/Uniqloooo/Uniqloooo/Views/Home/About.cshtml]
->>>>>>> a85d2d2f2cbb8c8a5780f709b2993007331a0ade
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
@@ -121,19 +106,11 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< HEAD
-[C:/Users/Sheki-Komp/Desktop/UniqloProject/Uniqloooo/Uniqloooo/Views/Shared/Components/LayoutHeader/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGF5b3V0SGVhZGVyXERlZmF1bHQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Sheki-Komp/Desktop/UniqloProject/Uniqloooo/Uniqloooo/Views/Shared/Error.cshtml]
-=======
 [C:/Users/ca r221.14/Desktop/Uniqloo/Uniqloooo/Uniqloooo/Views/Shared/Components/LayoutHeader/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTGF5b3V0SGVhZGVyXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ca r221.14/Desktop/Uniqloo/Uniqloooo/Uniqloooo/Views/Shared/Error.cshtml]
->>>>>>> a85d2d2f2cbb8c8a5780f709b2993007331a0ade
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 

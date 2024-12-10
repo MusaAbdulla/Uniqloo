@@ -13,16 +13,15 @@ using Uniqloooo.Extensions;
 using Uniqloooo.Models;
 using Uniqloooo.ViewModel.Products;
 using Uniqloooo.ViewModel.Sliders;
+using AuthorizeAttribute = Microsoft.AspNetCore.Authorization.AuthorizeAttribute;
 using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
 
 namespace Uniqloooo.Areas.Admin.Controllers;
 
-<<<<<<< HEAD
+
 [Area("Admin"), Authorize]
-=======
-[Area("Admin")]
-[Authorize]
->>>>>>> 42ae760e56ef6a7a4df6362ba101bbd7547e117f
+
+
 public class ProductController(IWebHostEnvironment _env, UniqloDb _context) : Controller
 {
     public async Task<IActionResult> Index()

@@ -758,12 +758,10 @@ C:\Users\ca r221.14\Desktop\Uniqloo\Uniqloooo\Uniqloooo\obj\Debug\net8.0\scopedc
 C:\Users\ca r221.14\Desktop\Uniqloo\Uniqloooo\Uniqloooo\obj\Debug\net8.0\Uniqloooo.csproj.Up2Date
 C:\Users\ca r221.14\Desktop\Uniqloo\Uniqloooo\Uniqloooo\obj\Debug\net8.0\Uniqloooo.genruntimeconfig.cache
 C:\Users\ca r221.14\Desktop\Uniqloo\Uniqloooo\Uniqloooo\obj\Debug\net8.0\ref\Uniqloooo.dll
-<<<<<<< HEAD
 C:\Users\ca r221.14\Desktop\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\ca r221.14\Desktop\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\ca r221.14\Desktop\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\ca r221.14\Desktop\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 C:\Users\ca r221.14\Desktop\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-=======
 >>>>>>> a85d2d2f2cbb8c8a5780f709b2993007331a0ade
 >>>>>>> 42ae760e56ef6a7a4df6362ba101bbd7547e117f
