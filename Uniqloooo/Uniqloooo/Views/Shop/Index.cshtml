@@ -70,8 +70,8 @@
                             @foreach( var item in Model.Brands)
                             {
                                 <li>
-                                    <input name="catId" class="d-none cat-input" type="radio" value="@item.Id" id="cat-@item.Id" />
-                                    <label style="cursor:pointer" class="d-flex justify-content-between" for="cat-@item.Id">@item.Name <span>@item.Count</span></label>
+                                        <a style="cursor:pointer" name="catId" asp-route-catId="@item.Id" class="d-flex justify-content-between" id="cat-@item.Id">@item.Name <span>@item.Count</span></a>
+                                   
                                 </li>
                                 
                             }

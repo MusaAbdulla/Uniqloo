@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Uniqloooo.Context;
 using Uniqloooo.Models;
@@ -6,7 +7,7 @@ using Uniqloooo.ViewModel.Sliders;
 
 namespace Uniqloooo.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"), Authorize]
     public class SlideController(UniqloDb _context, IWebHostEnvironment _env) : Controller
     {
         

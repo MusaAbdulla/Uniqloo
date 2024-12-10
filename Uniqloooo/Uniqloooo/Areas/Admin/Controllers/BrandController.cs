@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Uniqloooo.Context;
 using Uniqloooo.Models;
@@ -7,7 +8,7 @@ using Uniqloooo.ViewModel.Products;
 
 namespace Uniqloooo.Areas.Admin.Controllers
 {
-    [Area("Admin")]
+    [Area("Admin"),Authorize]
     public class BrandController(UniqloDb _context , IWebHostEnvironment _env) : Controller
     {
         public async Task <IActionResult> Index()

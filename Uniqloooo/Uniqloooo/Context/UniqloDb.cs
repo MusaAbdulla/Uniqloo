@@ -1,8 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Uniqloooo.Models;
 namespace Uniqloooo.Context
 {
-    public class UniqloDb:DbContext
+    public class UniqloDb: IdentityDbContext<User>
     {
         public DbSet<Slider> Sliders { get; set; }
         public DbSet<Product> Products { get; set; }

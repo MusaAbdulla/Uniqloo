@@ -25,6 +25,7 @@ namespace Uniqloooo.Controllers
                 }).ToListAsync();
             vm.Products = await _context.Products.Select(x => new ProductListItemVM
             {
+                Id = x.Id,
                 CoverImage = x.CoverImage,
                 Discount = x.Discount,
                 SellPrice = x.SellPrice,

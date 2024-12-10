@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http.Connections;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http.Connections;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
@@ -14,7 +15,7 @@ using Uniqloooo.ViewModel.Sliders;
 
 namespace Uniqloooo.Areas.Admin.Controllers;
 
-[Area("Admin")]
+[Area("Admin"), Authorize]
 public class ProductController(IWebHostEnvironment _env, UniqloDb _context) : Controller
 {
     public async Task<IActionResult> Index()

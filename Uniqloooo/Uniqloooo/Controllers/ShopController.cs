@@ -22,6 +22,7 @@ namespace Uniqloooo.Controllers
             }
             if(amount!=null)
             {
+                amount = amount.Replace("$", "");
                 var prices = amount
                 .Split('-').Select(x=> Convert.ToInt32(x));
                 query=query
@@ -67,7 +68,7 @@ namespace Uniqloooo.Controllers
             }
             string data = JsonSerializer.Serialize(basket);
             HttpContext.Response.Cookies.Append("Basket",data);
-            return Ok();
+            return RedirectToAction("Index" ,"Home");
         }
         public IActionResult GetBasket(int id)
         {
