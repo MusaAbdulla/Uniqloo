@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Uniqloooo.Context;
+using Uniqloooo.Extensions;
 using Uniqloooo.Models;
 
 namespace Uniqloooo
@@ -63,6 +64,7 @@ namespace Uniqloooo
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseAuthorization();
+            app.UseUserSeed();  
 
             app.MapControllerRoute(
               name: "login",

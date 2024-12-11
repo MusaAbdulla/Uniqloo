@@ -1,12 +1,16 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Uniqloooo.Extensions;
 using Uniqloooo.Models;
 using Uniqloooo.ViewModel.Auths;
+using Uniqloooo.Views.Enum;
 
 namespace Uniqloooo.Areas.Admin.Controllers
 {
     
-    public class AccountController(UserManager<User> _userManager ,SignInManager<User> _signInManager) : Controller
+    public class AccountController(UserManager<User> _userManager ,SignInManager<User> 
+        _signInManager ,RoleManager<IdentityRole> _roleManager) : Controller
     {
         public IActionResult Register()
         {
@@ -30,12 +34,31 @@ namespace Uniqloooo.Areas.Admin.Controllers
                 foreach(var item in result.Errors)
                 {
                     ModelState.AddModelError("",item.Description);
+
                 }
-            }
-            if (!ModelState.IsValid)
                 return View();
-            return View();
+            }
+            var roleResult= await _userManager.AddToRoleAsync(user ,nameof(Roles.User));
+            if (!roleResult.Succeeded)
+            {
+                foreach (var item in roleResult.Errors)
+                {
+                    ModelState.AddModelError("", item.Description);
+
+                }
+                return View();
+            }
+            return RedirectToAction("Index", "Home");
+            
         }
+        //public async Task <IActionResult> Role()
+        //{
+        //    foreach(Roles item in Enum.GetValues(typeof(Roles)))
+        //    {
+        //        await _roleManager.CreateAsync(new IdentityRole(item.GetRole()));
+        //    }
+        //    return Ok();
+        //}
         public IActionResult Login()
         {
             return View();

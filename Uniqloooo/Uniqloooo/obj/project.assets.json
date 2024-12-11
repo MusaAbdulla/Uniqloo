@@ -7878,24 +7878,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ca r221.14\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Sheki-Komp\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ca r221.14\\Desktop\\Uniqloo\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj",
+      "projectUniqueName": "C:\\Users\\Sheki-Komp\\Desktop\\New folder (2)\\Uniqloo\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj",
       "projectName": "Uniqloooo",
-      "projectPath": "C:\\Users\\ca r221.14\\Desktop\\Uniqloo\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj",
-      "packagesPath": "C:\\Users\\ca r221.14\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ca r221.14\\Desktop\\Uniqloo\\Uniqloooo\\Uniqloooo\\obj\\",
+      "projectPath": "C:\\Users\\Sheki-Komp\\Desktop\\New folder (2)\\Uniqloo\\Uniqloooo\\Uniqloooo\\Uniqloooo.csproj",
+      "packagesPath": "C:\\Users\\Sheki-Komp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Sheki-Komp\\Desktop\\New folder (2)\\Uniqloo\\Uniqloooo\\Uniqloooo\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ca r221.14\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Sheki-Komp\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7973,17 +7968,11 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\ca r221.14\\Desktop\\Uniqloo\\Uniqloooo\\Uniqloooo\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    },
     {
       "code": "NU1701",
       "level": "Warning",
