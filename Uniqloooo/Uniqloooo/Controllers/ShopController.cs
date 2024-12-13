@@ -51,7 +51,15 @@ namespace Uniqloooo.Controllers
             vm.ProductCount= await query.CountAsync();
             return View(vm);
         }
-    
+       public async Task<IActionResult> Details(int? id)
+        {
+            if (!id.HasValue) return BadRequest();
+            var data=await _context.Products
+            .Include(x=> x.Images).Where(x=>  x.Id == id.Value && !x.IsDeleted )
+            .FirstOrDefaultAsync();
+            if (data==null) return NotFound();
+            return View(data);
+        }
         public async Task <IActionResult> AddBasket(int id)
         {
             var basket = getBasket();

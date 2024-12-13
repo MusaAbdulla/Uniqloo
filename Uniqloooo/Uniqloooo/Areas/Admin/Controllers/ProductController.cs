@@ -10,6 +10,7 @@ using System.Web.Http;
 using System.Xml;
 using Uniqloooo.Context;
 using Uniqloooo.Extensions;
+using Uniqloooo.Helpers;
 using Uniqloooo.Models;
 using Uniqloooo.ViewModel.Products;
 using Uniqloooo.ViewModel.Sliders;
@@ -19,7 +20,7 @@ using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
 namespace Uniqloooo.Areas.Admin.Controllers;
 
 
-[Area("Admin"), Authorize]
+[Area("Admin"), Authorize(Roles=RoleConstants.Musa)]
 
 
 public class ProductController(IWebHostEnvironment _env, UniqloDb _context) : Controller
