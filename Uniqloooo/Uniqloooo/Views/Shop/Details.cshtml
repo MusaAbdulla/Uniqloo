@@ -74,7 +74,7 @@
                         @if(User.Identity?.IsAuthenticated ?? false )
                         {
                             <form asp-action="Rate" >
-                                <input type="hidden" name="productId" value="@Model.Id" />
+                                <input type="hidden" name="productId" value="@Model.Id"  />
                             <input type="number" min="1" max="5" name="rate"value="@ViewBag.Rating"/>
                             <button class="btn">Rate</button>
                             </form>
@@ -82,7 +82,7 @@
                         <br />
                     <div class="pro__dtl__rating">
                      <ul class="pro__rating"> 
-                        @for (int i = 0; i < @Math.Ceiling(Model.ProductRatings.Average(x => x.RatingRate)); i++)
+                        @for (int i = 0; i < ViewBag.Rating; i++)
                         {
                                 <li><span class="ti-star"></span></li>
                         }
@@ -148,11 +148,13 @@
                                     @foreach (var item in Model.ProductComments)
                                     {
                                         <p>
+
+                                            @item.CreatedTime
                                             @item.Comment
                                         </p>
                                     }
                                 </p>
-                               
+                               <br/>
                                     <div data-mdb-input-init class="form-outline w-100">
                                         <textarea class="form-control" id="textAreaExample" rows="4"
                                                   style="background: #fff;" name="Comment"></textarea>

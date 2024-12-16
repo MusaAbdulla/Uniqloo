@@ -99,8 +99,21 @@ namespace Uniqloooo.Controllers
             }
             else
             {
+                
                 rating.RatingRate = rate;
             }
+            
+            int RateCount = _context.ProductRatings.Where(x => x.Id == productId).Count();
+            double avgRating = 0; 
+
+            if (RateCount != 0)
+            {
+                avgRating = _context.ProductRatings
+                                     .Where(x => x.Id == productId)
+                                     .Average(x => x.RatingRate); 
+            }
+
+            ViewBag.Rating = rating;
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Details), new { id = productId });
         }
@@ -120,7 +133,7 @@ namespace Uniqloooo.Controllers
                 {
                     CreatedTime = DateTime.Now,
                     IsDeleted = false,
-                    UserName = userId,
+                    UserName = User.Claims.ToString(),
                     ProductId = productId.Value,
                     Comment = comment ,
                     UserId = userId
@@ -130,6 +143,7 @@ namespace Uniqloooo.Controllers
             {
                 commenting.Comment = comment;
             }
+            
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Details), new { id = productId });
         }
