@@ -1,13 +1,17 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using System.Security.Claims;
 using System.Text.Json;
 using Uniqloooo.Context;
+using Uniqloooo.Migrations;
 using Uniqloooo.ViewModel.Baskets;
 using Uniqloooo.ViewModel.Brands;
 using Uniqloooo.ViewModel.Commons;
 using Uniqloooo.ViewModel.Products;
 using Uniqloooo.ViewModel.Shops;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Uniqloooo.Controllers
 {
@@ -53,12 +57,78 @@ namespace Uniqloooo.Controllers
         }
        public async Task<IActionResult> Details(int? id)
         {
-            if (!id.HasValue) return BadRequest();
+             if(!id.HasValue) return BadRequest();
             var data=await _context.Products
-            .Include(x=> x.Images).Where(x=>  x.Id == id.Value && !x.IsDeleted )
+            .Include(x=> x.Images)
+            .Include(x=> x.ProductRatings)
+            .Include(x=> x.ProductComments)
+            .Where(x=>  x.Id == id.Value && !x.IsDeleted )
             .FirstOrDefaultAsync();
             if (data==null) return NotFound();
+            string? userId =User.Claims.FirstOrDefault(x=> x.Type ==
+            ClaimTypes.NameIdentifier)?.Value;
+            if(userId != null)
+            {
+               var rating= await _context.ProductRatings.Where(x=> x.UserId == userId && x.ProductId==id)
+                .Select(x=> x.RatingRate).FirstOrDefaultAsync();
+                ViewBag.Rating = rating==0 ? 5 : rating;
+            }
+            else
+            {
+                ViewBag.Rating = 5;
+            }
+            
             return View(data);
+        }
+        [Authorize]
+        public async Task <IActionResult> Rate(int? productId ,int rate=1)
+        {
+            if (!productId.HasValue) return BadRequest();
+            string userId = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)!.Value;
+            if (!await _context.Products.AnyAsync(p => p.Id == productId)) return NotFound();
+            var rating = await _context.ProductRatings.Where(x => x.ProductId == productId && x.UserId == userId).FirstOrDefaultAsync();
+            if (rating is null)
+            {
+                await _context.ProductRatings.AddAsync(new Models.ProductRating
+                {
+                    ProductId = productId.Value,
+                    RatingRate = rate,
+                    UserId = userId
+                });
+            }
+            else
+            {
+                rating.RatingRate = rate;
+            }
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Details), new { id = productId });
+        }
+        [Authorize]
+        public async Task<IActionResult> Comment(int? productId, string comment)
+        {
+
+            if (!productId.HasValue) return BadRequest();
+            string userId = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)!.Value;
+            if (!await _context.Products.AnyAsync(p => p.Id == productId)) return NotFound();
+            var commenting = await _context.ProductComments.Where(x => x.ProductId == productId && x.UserId == userId).FirstOrDefaultAsync();
+            if (commenting is null)
+            {
+                await _context.ProductComments.AddAsync(new Models.ProductComment
+                {
+                    CreatedTime = DateTime.Now,
+                    IsDeleted = false,
+                    UserName = userId,
+                    ProductId = productId.Value,
+                    Comment = comment,
+                    UserId = userId
+                });
+            }
+            else
+            {
+                commenting.Comment = comment;
+            }
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Details), new { id = productId });
         }
         public async Task <IActionResult> AddBasket(int id)
         {
@@ -85,9 +155,23 @@ namespace Uniqloooo.Controllers
         List<BasketCookieItemVM> getBasket()
         {
             string? value = (HttpContext.Request.Cookies["basket"]);
-            if(value is null) return new();
+            if (value is null) return new();
             return JsonSerializer.Deserialize<List<BasketCookieItemVM>>
                (value) ?? new();
         }
+      
+        public IActionResult RemoveBasket(int id)
+        {
+            var basket = getBasket();
+           var data= basket.FirstOrDefault(x => x.Id == id);
+            if (data != null)
+            {
+                basket.Remove(data);
+            }
+            string value = JsonSerializer.Serialize(basket);
+            HttpContext.Response.Cookies.Delete("Basket");
+            return RedirectToAction("Index" ,"Home");
+        }
+
     }
 }

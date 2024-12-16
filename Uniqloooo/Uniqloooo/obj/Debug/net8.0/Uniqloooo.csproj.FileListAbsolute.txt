@@ -9,8 +9,6 @@ C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Humanizer.dll
-C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\System.Net.Http.Formatting.dll
-C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\System.Web.Http.dll
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
@@ -65,7 +63,6 @@ C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Newtonsoft.Json.dll
-C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\NuGet.Common.dll
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\NuGet.Configuration.dll
 C:\Users\Sheki-Komp\Desktop\New folder (2)\Uniqloo\Uniqloooo\Uniqloooo\bin\Debug\net8.0\NuGet.DependencyResolver.Core.dll

@@ -20,7 +20,9 @@ namespace Uniqloooo.Models
         public int Discount { get; set; }
         public int? BrandId { get; set; }
         public Brand? Brand { get; set; }
-       public ICollection<ProductImage>? Images { get; set; }
+        public ICollection<ProductImage>? Images { get; set; }
+        public ICollection<ProductRating> ProductRatings { get; set; }
+        public ICollection<ProductComment> ProductComments { get; set; }
 
     }
 }

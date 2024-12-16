@@ -7,5 +7,7 @@ namespace Uniqloooo.Models
         public string FullName { get; set; }
         public string? ProfileImageUrl { get; set; }
         public string? Address {  get; set; }
+        public ICollection<ProductRating> ProductRatings {  get; set; } 
+        public ICollection<ProductComment> ProductComments { get; set; }
     }
 }

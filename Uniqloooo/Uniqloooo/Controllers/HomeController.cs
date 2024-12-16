@@ -48,14 +48,14 @@ namespace Uniqloooo.Controllers
         {
             return View();
         }
-        public void SetSession(string key, string value)
-        {
-            HttpContext.Session.SetString(key, value);
-        }
-        public IActionResult GetSession(string key)
-        {
-            return Content(HttpContext.Session.GetString(key) ?? string.Empty);
-        }
+        //public void SetSession(string key, string value)
+        //{
+        //    HttpContext.Session.SetString(key, value);
+        //}
+        //public IActionResult GetSession(string key)
+        //{
+        //    return Content(HttpContext.Session.GetString(key) ?? string.Empty);
+        //}
         public void SetCookie(string key, string value)
         {
             HttpContext.Response.Cookies.Append(key, value, new CookieOptions
@@ -68,5 +68,6 @@ namespace Uniqloooo.Controllers
         {
             return Content(HttpContext.Request.Cookies[key]);
         }
+
     }
 }

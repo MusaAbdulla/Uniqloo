@@ -11,6 +11,8 @@ namespace Uniqloooo.Context
         public DbSet<Product> Products { get; set; }
         public DbSet<Brand> Brands { get; set; }
         public DbSet<ProductImage> ProductImage{ get;  set; }
+        public DbSet<ProductRating> ProductRatings { get; set; }
+        public DbSet<ProductComment>  ProductComments { get; set; }
         public UniqloDb(DbContextOptions opt) : base(opt) { }
      
     }

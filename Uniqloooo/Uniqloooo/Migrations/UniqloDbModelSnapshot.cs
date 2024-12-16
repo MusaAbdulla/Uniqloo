@@ -228,6 +228,45 @@ namespace Uniqloooo.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("Uniqloooo.Models.ProductComment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Comment")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<DateTime>("CreatedTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ProductComments");
+                });
+
             modelBuilder.Entity("Uniqloooo.Models.ProductImage", b =>
                 {
                     b.Property<int>("Id")
@@ -254,6 +293,32 @@ namespace Uniqloooo.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductImage");
+                });
+
+            modelBuilder.Entity("Uniqloooo.Models.ProductRating", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int?>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("RatingRate")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("ProductRatings");
                 });
 
             modelBuilder.Entity("Uniqloooo.Models.Slider", b =>
@@ -427,6 +492,23 @@ namespace Uniqloooo.Migrations
                     b.Navigation("Brand");
                 });
 
+            modelBuilder.Entity("Uniqloooo.Models.ProductComment", b =>
+                {
+                    b.HasOne("Uniqloooo.Models.Product", "Product")
+                        .WithMany("ProductComments")
+                        .HasForeignKey("ProductId");
+
+                    b.HasOne("Uniqloooo.Models.User", "User")
+                        .WithMany("ProductComments")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Uniqloooo.Models.ProductImage", b =>
                 {
                     b.HasOne("Uniqloooo.Models.Product", "Product")
@@ -438,6 +520,21 @@ namespace Uniqloooo.Migrations
                     b.Navigation("Product");
                 });
 
+            modelBuilder.Entity("Uniqloooo.Models.ProductRating", b =>
+                {
+                    b.HasOne("Uniqloooo.Models.Product", "Product")
+                        .WithMany("ProductRatings")
+                        .HasForeignKey("ProductId");
+
+                    b.HasOne("Uniqloooo.Models.User", "User")
+                        .WithMany("ProductRatings")
+                        .HasForeignKey("UserId");
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Uniqloooo.Models.Brand", b =>
                 {
                     b.Navigation("Products");
@@ -446,6 +543,17 @@ namespace Uniqloooo.Migrations
             modelBuilder.Entity("Uniqloooo.Models.Product", b =>
                 {
                     b.Navigation("Images");
+
+                    b.Navigation("ProductComments");
+
+                    b.Navigation("ProductRatings");
+                });
+
+            modelBuilder.Entity("Uniqloooo.Models.User", b =>
+                {
+                    b.Navigation("ProductComments");
+
+                    b.Navigation("ProductRatings");
                 });
 #pragma warning restore 612, 618
         }

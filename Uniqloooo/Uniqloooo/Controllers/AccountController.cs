@@ -1,8 +1,13 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.CSharp.Syntax;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Identity.Client;
-using System.Web.Http;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages;
+using NuGet.Protocol.Plugins;
+using System;
+using Uniqloooo.Context;
 using Uniqloooo.Extensions;
 using Uniqloooo.Models;
 using Uniqloooo.ViewModel.Auths;
@@ -13,7 +18,7 @@ namespace Uniqloooo.Areas.Admin.Controllers
 {
     
     public class AccountController(UserManager<User> _userManager ,SignInManager<User> 
-        _signInManager ,RoleManager<IdentityRole> _roleManager) : Controller
+        _signInManager ,RoleManager<IdentityRole> _roleManager,UniqloDb _context) : Controller
        
     {
         public bool IsAuthenticated => HttpContext.User.Identity?.IsAuthenticated ?? false ;
@@ -61,14 +66,14 @@ namespace Uniqloooo.Areas.Admin.Controllers
            
 
         }
-        //public async Task <IActionResult> Role()
-        //{
-        //    foreach(Roles item in Enum.GetValues(typeof(Roles)))
-        //    {
-        //        await _roleManager.CreateAsync(new IdentityRole(item.GetRole()));
-        //    }
-        //    return Ok();
-        //}
+        public async Task<IActionResult> Role()
+        {
+            foreach (Roles item in Enum.GetValues(typeof(Roles)))
+            {
+                await _roleManager.CreateAsync(new IdentityRole(item.GetRole()));
+            }
+            return Ok();
+        }
         public IActionResult Login()
         {
             if (IsAuthenticated) return RedirectToAction("Index", "Home");
@@ -113,11 +118,19 @@ namespace Uniqloooo.Areas.Admin.Controllers
          
         }
         [Authorize]
-        public async Task <IActionResult> Logout()
+        public async Task <IActionResult> Logout( )
         {
             await _signInManager.SignOutAsync();
+           
             return RedirectToAction(nameof(Login));
         }
-        
+        public IActionResult UpdatePassWord()
+        {
+            return View();
+        }
+        //public async Task <IActionResult> UpdatePassWord()
+        //{
+
+        //}
     }
 }

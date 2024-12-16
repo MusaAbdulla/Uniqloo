@@ -6,7 +6,6 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.Blazor;
 using NuGet.Packaging;
 using System.Linq;
-using System.Web.Http;
 using System.Xml;
 using Uniqloooo.Context;
 using Uniqloooo.Extensions;
@@ -18,11 +17,7 @@ using AuthorizeAttribute = Microsoft.AspNetCore.Authorization.AuthorizeAttribute
 using HttpPostAttribute = Microsoft.AspNetCore.Mvc.HttpPostAttribute;
 
 namespace Uniqloooo.Areas.Admin.Controllers;
-
-
 [Area("Admin"), Authorize(Roles=RoleConstants.Musa)]
-
-
 public class ProductController(IWebHostEnvironment _env, UniqloDb _context) : Controller
 {
     public async Task<IActionResult> Index()

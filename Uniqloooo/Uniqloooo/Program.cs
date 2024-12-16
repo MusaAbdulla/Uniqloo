@@ -48,8 +48,6 @@ namespace Uniqloooo
 
                 x.AccessDeniedPath = "/Home/AccessDenied";
 
-                x.AccessDeniedPath= "/Home/AccessDenied";
-
             });
             //builder.Services.AddSession();
             var app = builder.Build();
@@ -63,25 +61,8 @@ namespace Uniqloooo
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseAuthorization();
+       
             app.UseUserSeed();  
-
-            app.MapControllerRoute(
-              name: "login",
-                pattern: "login", new
-                 {
-                    Controller = "Account",
-                    Action = "Login"
-
-               });
-            app.MapControllerRoute(
-           name: "register",
-           pattern: "register", new
-           {
-               Controller = "Account",
-               Action = "Register"
-
-           });
             app.UseRouting();
             //app.UseSession();
             app.UseAuthorization();
