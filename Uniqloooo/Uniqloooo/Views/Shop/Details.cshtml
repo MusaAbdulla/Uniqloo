@@ -133,7 +133,7 @@
                 <div class="row d-flex justify-content-center">
                     <div class="col-md-12 col-lg-10 col-xl-8">
                         <div class="card">
-                        <form asp-action="Comment">
+                        <form asp-action="Comment" method="post">
                             <div class="card-body">
                                 <div class="d-flex flex-start align-items-center">
                                     <div>
@@ -145,15 +145,18 @@
                                 </div>
                             
                                     <p class="mt-3 mb-4 pb-2">
-                                        @foreach (var item in Model.ProductComments)
-                                        {
-                                        }
-                                    </p>
+                                    @foreach (var item in Model.ProductComments)
+                                    {
+                                        <p>
+                                            @item.Comment
+                                        </p>
+                                    }
+                                </p>
                                
                                     <div data-mdb-input-init class="form-outline w-100">
                                         <textarea class="form-control" id="textAreaExample" rows="4"
-                                                  style="background: #fff;"></textarea>
-                                        <label class="form-label" for="textAreaExample">Comment</label>
+                                                  style="background: #fff;" name="Comment"></textarea>
+                                        <label class="form-label"  for="textAreaExample">Comment</label>
                                     </div>
                                 </div>
                                 <div class="float-end mt-2 pt-1">

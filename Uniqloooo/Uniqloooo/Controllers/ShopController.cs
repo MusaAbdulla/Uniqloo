@@ -6,6 +6,7 @@ using System.Security.Claims;
 using System.Text.Json;
 using Uniqloooo.Context;
 using Uniqloooo.Migrations;
+using Uniqloooo.Models;
 using Uniqloooo.ViewModel.Baskets;
 using Uniqloooo.ViewModel.Brands;
 using Uniqloooo.ViewModel.Commons;
@@ -103,8 +104,10 @@ namespace Uniqloooo.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Details), new { id = productId });
         }
+ 
         [Authorize]
-        public async Task<IActionResult> Comment(int? productId, string comment)
+        [HttpPost]
+        public async Task<IActionResult> Comment(int? productId, string? comment)
         {
 
             if (!productId.HasValue) return BadRequest();
@@ -113,13 +116,13 @@ namespace Uniqloooo.Controllers
             var commenting = await _context.ProductComments.Where(x => x.ProductId == productId && x.UserId == userId).FirstOrDefaultAsync();
             if (commenting is null)
             {
-                await _context.ProductComments.AddAsync(new Models.ProductComment
+                await _context.ProductComments.AddAsync(new ProductComment
                 {
                     CreatedTime = DateTime.Now,
                     IsDeleted = false,
                     UserName = userId,
                     ProductId = productId.Value,
-                    Comment = comment,
+                    Comment = comment ,
                     UserId = userId
                 });
             }
