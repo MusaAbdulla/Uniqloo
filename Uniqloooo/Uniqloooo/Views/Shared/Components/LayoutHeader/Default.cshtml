@@ -1,5 +1,8 @@
 ﻿@model List<BasketItemVm>
-
+@{
+    decimal productTotal = 0;
+    decimal grandTotal = 0;
+}
 <!-- Start Cart Panel -->
 <div class="shopping__cart">
     <div class="shopping__cart__inner">
@@ -18,18 +21,36 @@
                     <div class="shp__pro__details">
                         <h2><a href="product-details.html">@item.Name</a></h2>
                         <span class="quantity">QTY: @item.Count</span>
-                        <span class="shp__price">$@item.Price</span>
+                        <span class="shp__price">$@(item.Price-(item.Price*item.Discount)/100)</span>
                     </div>
                     <div class="remove__btn">
                         <a asp-action="RemoveBasket" asp-controller="Shop" asp-route-id="@item.Id" title="Remove this item"><i class="zmdi zmdi-close"></i></a>
                     </div>
                 </div>
             }
-
         </div>
         <ul class="shoping__total">
-            <li class="subtotal">Subtotal:</li>
-            <li class="total__price">$130.00</li>
+            @foreach (var ttl in Model)
+            {
+                if (ttl.Count > 0)
+                {
+                    if (ttl.Discount > 0)
+                    {
+                        var discountedPrice = ttl.Price - (ttl.Price * ttl.Discount / 100);
+                        productTotal = discountedPrice * ttl.Count;
+                    }
+                    else
+                    {
+                        productTotal = ttl.Price * ttl.Count;
+                    }
+                }
+                grandTotal += productTotal;
+            }
+            <ul class="shoping__total">
+                <li class="subtotal">SubTotal:</li>
+                <li class="total__price">@grandTotal.ToString("0.00") $</li>
+            </ul>
+
         </ul>
         <ul class="shopping__btn">
             <li><a href="cart.html">View Cart</a></li>

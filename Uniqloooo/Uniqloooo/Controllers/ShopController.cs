@@ -126,9 +126,9 @@ namespace Uniqloooo.Controllers
             if (!productId.HasValue) return BadRequest();
             string userId = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.NameIdentifier)!.Value;
             if (!await _context.Products.AnyAsync(p => p.Id == productId)) return NotFound();
-            var commenting = await _context.ProductComments.Where(x => x.ProductId == productId && x.UserId == userId).FirstOrDefaultAsync();
-            if (commenting is null)
-            {
+            
+           
+            
                 await _context.ProductComments.AddAsync(new ProductComment
                 {
                     CreatedTime = DateTime.Now,
@@ -138,11 +138,8 @@ namespace Uniqloooo.Controllers
                     Comment = comment ,
                     UserId = userId
                 });
-            }
-            else
-            {
-                commenting.Comment = comment;
-            }
+            
+            
             
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Details), new { id = productId });
@@ -171,22 +168,28 @@ namespace Uniqloooo.Controllers
         }
         List<BasketCookieItemVM> getBasket()
         {
-            string? value = (HttpContext.Request.Cookies["basket"]);
+            string? value = (HttpContext.Request.Cookies["Basket"]);
             if (value is null) return new();
             return JsonSerializer.Deserialize<List<BasketCookieItemVM>>
                (value) ?? new();
         }
       
-        public IActionResult RemoveBasket(int id)
+        public async Task <IActionResult> RemoveBasket(int id)
         {
             var basket = getBasket();
-           var data= basket.FirstOrDefault(x => x.Id == id);
-            if (data != null)
-            {
+           var data=  basket.FirstOrDefault(x => x.Id == id);
+            if (data == null) return BadRequest();      
                 basket.Remove(data);
+            var value = JsonSerializer.Serialize(basket);
+            if (basket.Any())
+            {
+               
+               HttpContext.Response.Cookies.Append("Basket",value); 
             }
-            string value = JsonSerializer.Serialize(basket);
-            HttpContext.Response.Cookies.Delete("Basket");
+            else
+            {
+                HttpContext.Response.Cookies.Delete("Basket");
+            }
             return RedirectToAction("Index" ,"Home");
         }
 
